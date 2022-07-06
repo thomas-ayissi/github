@@ -1,13 +1,18 @@
+#container {
+       padding-left: 25%;
+       padding-rigt: 25%;
+}
+
+
+
 .pic-size {
     width: 35%;
 }
+
 
 
 h1,h2,h3,p {
     font-family: sans-serif, Arial;
 }
 
-#container {
-       padding-left: 25%;
-       padding-rigt: 25%;
-}
+
