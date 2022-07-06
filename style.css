@@ -1,8 +1,12 @@
 #container {
        padding-left: 33%;
-       padding-right: auto;
+
 }
 
+
+div {
+      padding-right: 30%;
+}
 
 
 .pic-size {
