@@ -3,6 +3,6 @@
 }
 
 
-h1 h2 h3 p {
-    police: Sans-serif;
+h1,h2,h3,p {
+    police: Arial;
 }
