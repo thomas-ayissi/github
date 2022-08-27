@@ -4,7 +4,7 @@
 
 ## Steps
 
-1. [First Interview](#1.first-interview)
+1. [First Interview]("1.First-interview")
 2. [Follow-Up Interview](#2-follow-up-interview)
 3. [Capture Findings](#3-consolidate-findings)
 4. [Define the Problem](#4-define-the-problem)
