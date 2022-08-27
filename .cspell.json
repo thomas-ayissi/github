@@ -76,8 +76,7 @@
     "WIREFRAME",
     "Wireframes",
     "Yodiz",
-    "Zepel",
-
+    "Zepel"
   ],
   "ignorePaths": [
     "node_modules/**",
