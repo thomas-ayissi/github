@@ -15,4 +15,3 @@ Some boundaries around our project.
 
 - Compliance with the NPM test battery
 
-```
