@@ -1,4 +1,4 @@
-# Design 
+# Design
 
 1. Home page
 2. Skills page

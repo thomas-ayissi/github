@@ -148,7 +148,7 @@ The project is: in progress
 ## Group Members
 
 | Name               | GitHub Links                                      |
-|--------------------|---------------------------------------------------|
+| ------------------ | ------------------------------------------------- |
 | **Verousca Ekema** | [Verousca](https://github.com/Verousca)           |
 | **Thomas Ayissi**  | [thomas-ayissi](https://github.com/thomas-ayissi) |
 
