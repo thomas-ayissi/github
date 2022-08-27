@@ -14,4 +14,3 @@ Some boundaries around our project.
 ## Internal: Voluntary
 
 - Compliance with the NPM test battery
-
