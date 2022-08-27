@@ -28,6 +28,6 @@
     "**/*.svg",
     "accessibility_report",
     "TO_DO_File.md",
-    ".sonarlint",
+    ".sonarlint"
   ]
 }
