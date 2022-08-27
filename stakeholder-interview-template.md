@@ -5,14 +5,14 @@
 ## Steps
 
 1. [First Interview]("1.First-interview")
-2. [Follow-Up Interview](#2-follow-up-interview)
-3. [Capture Findings](#3-consolidate-findings)
-4. [Define the Problem](#4-define-the-problem)
-5. [Open-Ended Ideation](#5-ideation)
-6. [Partner Feedback](#6-partner-feedback)
-7. [Final Plan](#7-final-plan)
-8. [Final Wireframe](#8-final-wireframe)
-9. [Final Feedback](#9-final-feedback)
+2. [Follow-Up Interview]("2.follow-up-interview")
+3. [Capture Findings]("3.consolidate-findings")
+4. [Define the Problem]("4.define-the-problem")
+5. [Open-Ended Ideation]("5.ideation")
+6. [Partner Feedback]("6.partner-feedback")
+7. [Final Plan]("7.final-plan")
+8. [Final Wireframe]("8.final-wireframe")
+9. [Final Feedback]("9.final-feedback")
 
 ---
 
