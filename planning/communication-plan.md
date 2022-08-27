@@ -1,6 +1,6 @@
-```markdown
 # Communication
 
+```markdown
 ## Group Rules
 
 1. From our first meeting (Verousca and Thomas), we chose to work simultaneously
