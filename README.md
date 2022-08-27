@@ -112,8 +112,8 @@ quality scripts locally.
                       <nav>
                            <ul>
                                <li><a href="index.html">Home</a></li>
-                               <li><a href="skills.html">Features</a></li>
-                               <li><a href="cheatsheet.html">Docs</a></li>
+                               <li><a href="skills.html">Skills</a></li>
+                               <li><a href="cheatsheet.html">Cheatsheet</a></li>
                            </ul>
                       </nav>
               </div>
