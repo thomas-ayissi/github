@@ -17,3 +17,4 @@ ignore:
   - .github
   - .vscode
   - .idea
+  - TO_DO_File.md

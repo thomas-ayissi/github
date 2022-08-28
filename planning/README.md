@@ -1,105 +1,155 @@
-# Planning and Collaborating
+# Project name
 
-The main focus of this module is planning and collaborating on software
-projects. You've already seen all the pieces you need in the Precourse! To
-collaborate on a group project you will need:
+> Thomas WebSite
 
-- A repository
-- Planning documents
-- Issues
-- labels, milestones and assignees
-- A Project Board
-- Pull Requests + code review
+## Table of contents
 
-Wait, what?! HTML, CSS and JavaScript aren't even on that list! Understanding
-why they are not on the list will give you a head start towards becoming a great
-developer.
+- Project name
+- General info
+- Screenshots
+- Technologies
+- Configuration
+- Code examples
+- Features
+- Status
+- Inspiration
+- Contact
+- Instructions for use
+- Code quality checks
+- Continuous integration
+- Repository setup
 
-The difference between an ok developer and a great developer doesn't have to do
-with the languages, frameworks or technologies they use. It has to do with their
-discipline in planning, communication, and collaboration. Your projects in this
-module may only use HTML and CSS, but the workflows you learn will be useful all
-the way into your first job.
+### Name of our project
 
-## The Method
+> Thomas WebSite
 
-In this module you will begin learning a method to plan and build projects in a
-team. There are many methodologies for collaborating on software projects, each
-company and even each team in the same company will have their own way of
-working. This project method is designed for students at HYF and will prepare
-you to take your first steps into a professional software team.
+### General info
 
-You will approach projects by first creating a schedule, then working in from
-the big picture to finished source code. While there are many steps, there are
-only 3 _milestones_ in your project life-cycle:
+1. Home page
+2. Skills page
+3. Cheat Sheet page
 
-- **Planning**: steps 1-9
-  - _milestone_: **planning**
-- Development: step 10
-  - _milestones_: **must-have**, **should-have**, **could-have**
-- **Retrospective** step 11
-  - _milestone_: **retrospective**
+### Screenshots
 
-### Planning
+![Home Page](../image/design-web-site3.png)
+![Home Page](../image/website-page2-skills3.png)
+![Home Page](../image/website-page3-cheatsheet3.png)
 
-In the **planning** phase of your project you will be gradually moving from the
-_big picture_ to the _source code_.
+### Technologies
 
-After setting up your group repository and creating a schedule you will come up
-with the big picture idea . This is how you might describe the project to a
-friend if they ask what you're building. At this point you don't need to think
-about the code or even what the site will look like, but you will want to think
-about your group's _constraints_ - how much time do each of you have? what are
-your skill levels? which technologies will you use?
+1. HTML
+2. CSS
+3. Grid
+4. Flexbox
+5. Node 14.16.0
+6. JavaScript
+7. VSC code
 
-The next step from the big picture towards the code is taking the user's
-perspective and describing what they can do with your site . A backlog is a list
-of **user stories** organized by priority \(**must-have**, **should-have**,
-**could-have**\), these stories describe the user's experience as they navigate
-your website. At this point you still shouldn't be thinking about how the page
-will look.
+### Configuration (set up)
 
-Next you move from the user in front of the screen, to the screen itself. You
-will create a wireframe to describe what the website will look like without any
-detail, just big blocks and fake text. The idea is to agree as a group what
-needs to be built, and to make sure that your website covers all the
-**must-have** user stories in your backlog. Now that you know _what_ you're
-building, how the _user_ will use it, and what it will _look_ like. It's time to
-plan some code!
+#### Installation
 
-Take a step behind the screen and start planning the code you will need to write
-for all of your **must-have** user stories. A development strategy will break
-down your wireframe into small pieces and include your best guess at what code
-you need to write for each piece. It will take lots of practice to write a good
-Development Strategy, that's why you're learning about them so early in the
-course!
+- `npm run start`
+- `npm run build`
 
-### Development
+#### A guide to using source repository
 
-In the **development** phase of your project you'll be gradually moving from
-_boilerate code_ to a _finished web page_. A solid plan will get you started,
-good teamwork will carry you to the end.
+1. `git clone git@github.com:HackYourFutureBelgium/template-markdown.git`
+2. `cd template-markdown`
+3. `npm install`
 
-The fist step of development is to create _issues_ for all of your planned
-tasks, organize the with _labels and milestones_ then move them to your repo's
-project board. If you've written a good Development Strategy then this step
-should be easy, you can almost copy-pasting the sections of your Development
-Strategy into issues!
+#### Code quality checks
 
-Once your project board is ready the fun begins, it's time for _development_!
-Developing your code can feel much less organized than planning it, that's
-normal. It's impossibcreate a perfect plan. Your teamwork skills will be put to
-the test as you each work on separate branches, send Pull Requests, and build
-your way through the TODO issues. Problems will come up and your plans will need
-to change. This is the _agile_ way.
+- `npm run format`: Make sure all the code in this repository is formatted
+  correctly (looks good). (looks good).
+- `npm run lint:ls`: Checks that all the folder and file names match the
+  conventions of the repository.
+- `npm run lint:md`: Checks all Markdown files in this repository.
+- `npm run lint:css`: Will make a copy of all CSS files in this repository.
+- `npm run validate:html`: Validates all HTML files in your project.
+- `npm run spell-check`: Goes through all the files in this repository looking
+  for words it doesn't recognize. Just because it says something is an error
+  does not mean it is! It doesn't know every word in the world. You can add new
+  correct words to the [./.cspell.json](./.cspell.json) file so that they do not
+  cause an error. an error.
+- `npm run accessibility -- ./path/to/file.html`: Runs an accessibility scan on
+  all HTML on all HTML files in the given path and writes the report to the file
+  `/accessibility_report` file.
 
-### Retrospective
+#### Continuous Integration (CI)
 
-Time's up, it's ok if your project isn't finished! In the **retrospective**
-phase of your project you and your teammates will discuss what went well, what
-went less well, and what you can improve for next time.
+When you open a PR to `main`/`master` in your repository, GitHub will
+automatically do a linting check on the code in that repository, you can see
+this in the this in the file
+[github/workflows/lint.yml](https://github/workflows/lint.yml).
 
----
+If the linting fails, you will not be able to merge the PR. You can check that
+your code will that your code will pass before pushing it by running the code
+quality scripts locally.
 
-> - [Building Software Together](https://buildtogether.tech/) _a student's guide
->   to being a compassionate programmer_
+#### Repo configuration
+
+- Give each member _written_ access to the repo (if it's a group project).
+- Enable GitHub pages and put a link to your website in the repo description.
+- Activate the GitHub Actions
+- in the _Branches_ section of your repo settings, make sure :
+  - The repository
+    [requires review](https://github.blog/2018-03-23-require-multiple-reviewers/)
+    before pull requests can be merged.
+  - The `master`/`main` branch must "_Require status checks to pass before
+    merge_"
+  - The `master`/`main` branch must "_Require required branches to be up to date
+    before merging_"
+
+## Code examples
+
+```HTML
+//
+<!-- NAVBAR -->
+          <div class="navbar">
+              <div class="container flex">
+                  <h1 class="logo">Thomas WebSite</h1>
+                      <nav>
+                           <ul>
+                               <li><a href="index.html">Home</a></li>
+                               <li><a href="skills.html">Skills</a></li>
+                               <li><a href="cheatsheet.html">Cheatsheet</a></li>
+                           </ul>
+                      </nav>
+              </div>
+          </div>
+```
+
+## Features
+
+### List of ready features and Todos for future development
+
+-
+-
+-
+
+### List of things to do
+
+-
+-
+
+## Status
+
+The project is: in progress
+
+## Inspiration
+
+[HYF Template for HTML and CSS](https://github.com/HackYourFutureBelgium/template-html-css)
+
+## Contact
+
+[Thomas GitHub Page](https://github.com/thomas-ayissi/thomas-ayissi.github.io.git)
+
+## Group Members
+
+| Name               | GitHub Links                                      |
+| ------------------ | ------------------------------------------------- |
+| **Verousca Ekema** | [Verousca](https://github.com/Verousca)           |
+| **Thomas Ayissi**  | [thomas-ayissi](https://github.com/thomas-ayissi) |
+
+## How to use

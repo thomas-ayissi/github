@@ -4,3 +4,5 @@ accessibility_report
 .vscode/settings.json
 .history
 .idea
+.sonarlint
+TO_DO_File.md
