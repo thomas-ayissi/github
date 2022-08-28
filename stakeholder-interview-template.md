@@ -48,9 +48,9 @@
   In this follow up interview you will present to your partner a summary of your first interview. You will do your best effort to understand, rephrase, and communicate your partners needs back to them. Take this chance to listen for their feedback on how well you understand their situation. Update your notes accordingly
 -->
 
-### Notes
+### Second Notes
 
-### Summary
+### Second Summary
 
 ---
 
@@ -93,8 +93,9 @@
   How are the designs different? How does each one serve your partner differently?
 -->
 
-- [wireframe name]()
-- ...
+![Home Page](./image/design-web-site3.png)
+![Home Page](./image/website-page2-skills3.png)
+![Home Page](./image/website-page3-cheatsheet3.png)
 
 ---
 
@@ -102,9 +103,9 @@
 
 <!-- Discuss your ideas with your partner. lots of `why?`. -->
 
-### Notes
+### Third Notes
 
-### Summary
+### Third Summary
 
 ---
 
@@ -128,15 +129,16 @@
   After you've finished the Plan & Design ask your partner for feedback. In a professional setting this would be the beginning of a whole new development cycle.
 -->
 
-### Notes
+### Fourth Notes
 
-### Summary
-
----
+### Fourth Summary
 
 ---
 
-> This template is inspired by
-> [the wallet project](https://dschool-old.stanford.edu/sandbox/groups/designresources/wiki/4dbb2/attachments/e1005/TheWalletProjectB%26W2012.pdf?sessionID=8af88fee76ecd1fb7879c915073461486c425622)
+---
 
-> [pdf](https://hci.stanford.edu/dschool/resources/wallet/Wallet%20Facilitators%20Guide.pdf)
+```Markdown
+> This template is inspired by :
+>[the wallet project]("https://dschool-old.stanford.edu/sandbox/groups/designresources/wiki/4dbb2/attachments/e1005/TheWalletProjectB%26W2012.pdf?sessionID=8af88fee76ecd1fb7879c915073461486c425622")
+>[pdf]("https://hci.stanford.edu/dschool/resources/wallet/Wallet%20Facilitators%20Guide.pdf")
+```
