@@ -31,9 +31,9 @@
 
 ### Screenshots
 
-![Home Page](./image/design-web-site3.png)
-![Home Page](./image/website-page2-skills3.png)
-![Home Page](./image/website-page3-cheatsheet3.png)
+
+![Home Page](./image/thomas-website-design-smartphone.png)
+![Home Page](./image/thomas-website-design-desktop.png)
 
 ### Technologies
 
@@ -112,8 +112,8 @@ quality scripts locally.
                       <nav>
                            <ul>
                                <li><a href="index.html">Home</a></li>
-                               <li><a href="skills.html">Skills</a></li>
-                               <li><a href="cheatsheet.html">Cheatsheet</a></li>
+                               <li><a href="./pages/skills.html">Skills</a></li>
+                               <li><a href="./pages/cheatsheet.html">Cheatsheet</a></li>
                            </ul>
                       </nav>
               </div>
