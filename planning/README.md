@@ -31,9 +31,8 @@
 
 ### Screenshots
 
-![Home Page](../image/design-web-site3.png)
-![Home Page](../image/website-page2-skills3.png)
-![Home Page](../image/website-page3-cheatsheet3.png)
+![Home Page](../image/thomas-website-design-smartphone.png)
+![Home Page](../image/thomas-website-design-desktop.png)
 
 ### Technologies
 
@@ -70,7 +69,7 @@
 - `npm run spell-check`: Goes through all the files in this repository looking
   for words it doesn't recognize. Just because it says something is an error
   does not mean it is! It doesn't know every word in the world. You can add new
-  correct words to the [./.cspell.json](./.cspell.json) file so that they do not
+  correct words to the [./.cspell.json](../.cspell.json) file so that they do not
   cause an error. an error.
 - `npm run accessibility -- ./path/to/file.html`: Runs an accessibility scan on
   all HTML on all HTML files in the given path and writes the report to the file
@@ -111,9 +110,9 @@ quality scripts locally.
                   <h1 class="logo">Thomas WebSite</h1>
                       <nav>
                            <ul>
-                               <li><a href="index.html">Home</a></li>
-                               <li><a href="skills.html">Skills</a></li>
-                               <li><a href="cheatsheet.html">Cheatsheet</a></li>
+                               <li><a href="../index.html">Home</a></li>
+                               <li><a href="../pages/skills.html">Skills</a></li>
+                               <li><a href="../pages/cheatsheet.html">Cheatsheet</a></li>
                            </ul>
                       </nav>
               </div>

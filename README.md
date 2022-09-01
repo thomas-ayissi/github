@@ -31,7 +31,6 @@
 
 ### Screenshots
 
-
 ![Home Page](./image/thomas-website-design-smartphone.png)
 ![Home Page](./image/thomas-website-design-desktop.png)
 

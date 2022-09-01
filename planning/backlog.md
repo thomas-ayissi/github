@@ -19,9 +19,8 @@ a menu and a footer because these elements are present in almost all websites.
 
 ## Could-Haves
 
-## it would be interesting to have a login area on the site. Just to practice doing it.
+it would be interesting to have a login area on the site. Just to practice doing
+it.
 
 ## Story Sequencing
-
-![](/)
 ```

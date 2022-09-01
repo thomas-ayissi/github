@@ -4,6 +4,5 @@
 2. Skills page
 3. Cheat Sheet page
 
-![Home Page](../image/design-web-site3.png)
-![Home Page](../image/website-page2-skills3.png)
-![Home Page](../image/website-page3-cheatsheet3.png)
+![Home Page](../image/thomas-website-design-smartphone.png)
+![Home Page](../image/thomas-website-design-desktop.png)
