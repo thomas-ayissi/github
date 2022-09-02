@@ -73,6 +73,17 @@ a:hover {
   font-weight: bold;
 }
 
+.homepage-text{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial,sans-serif;
+  font-weight: bold;
+}
+
+
+
+
 p {
   font-size: 1.2em;
   font-family: sans-serif, Arial;
