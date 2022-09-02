@@ -13,9 +13,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  /*pour rendre visible toutes les boites*/
-  border-color: #1c3fa8;
-  border-style: double;
 }
 
 main > div > div {
