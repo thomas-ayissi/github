@@ -15,24 +15,36 @@
   margin: 0;
 }
 
-.container {
-  max-width: 97%;
-  max-height: 99%;
+
+main > div > div {
+  display: flex;
+}
+
+.navbar {
+  background-color: #d3d3d3;
+  color: #fff;
+  height: 10em;
+}
+
+main > div .navbar {
+  display: flex;
+  flex-direction: row;
+  max-width: 250%;
+  max-height: 19%;
+  height: 10em;
   margin: 0 3%;
   padding: 0 3%;
 }
 
-p {
-  font-size: 1.2em;
-  font-family: sans-serif;
-  color: #000;
-}
 
-main > div > image {
-  width: 15px;
-  height: 15px;
-  position: relative;
-  margin: 1em 1em 1em 1em;
+
+.website-logo {
+  display: flex;
+  width: 5%;
+  height: 5%;
+
+  /* padding: 5% 0 0 5%; */
+
 }
 
 div > span > a {
@@ -41,28 +53,64 @@ div > span > a {
 }
 
 a:hover {
-  color: #d9534f;
+
+  color: #0000cd;
 }
 
-.navbar {
-  background-color: #d3d3d3;
-  color: #fff;
-  height: 14em;
+a:visited {
+  color: #ff7f50;
+
 }
 
 .digits {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
+
+  justify-content: space-around;
   align-items: flex-end;
-  padding-left: 10em;
+  padding-left: 20em;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.homepage-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-weight: bold;
+}
+
+.home-picture {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1em;
+  padding-bottom: 1em;
+
 }
 
 .computer {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
-  padding-left: 10em;
+  width: 70em;
+}
+
+p {
+  font-size: 1.2em;
+  font-family: sans-serif, Arial;
+  color: #000;
+}
+
+.down-page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
   width: 100%;
+  height: 100%;
+  background-color: #d3d3d3;
+
 }
