@@ -19,6 +19,12 @@ main > div > div {
   display: flex;
 }
 
+.navbar {
+  background-color: #d3d3d3;
+  color: #fff;
+  height: 10em;
+}
+
 main > div .navbar {
   display: flex;
   flex-direction: row;
@@ -29,21 +35,14 @@ main > div .navbar {
   padding: 0 3%;
 }
 
-.navbar {
-  background-color: #d3d3d3;
-  color: #fff;
-  height: 10em;
+
+.website-logo {
+  display: flex;
+  width: 5%;
+  height: 5%;
+
+  /* padding: 5% 0 0 5%; */
 }
-
-
-
-.website-logo{
-    display: flex;
-    width: 5%;
-    height: 5%;
-    /*padding: 5% 0 0 5%;*/
-}
-
 
 div > span > a {
   text-decoration: none;
@@ -51,33 +50,31 @@ div > span > a {
 }
 
 a:hover {
-  color: #0000CD;
+  color: #0000cd;
 }
 
-
-a:visited{
-  color: #FF7F50;
+a:visited {
+  color: #ff7f50;
 }
-
 
 .digits {
   display: flex;
   justify-content: space-around;
   align-items: flex-end;
   padding-left: 20em;
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: bold;
 }
 
-.homepage-text{
+.homepage-text {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   font-weight: bold;
 }
 
-.home-picture{
+.home-picture {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -93,15 +90,13 @@ a:visited{
   width: 70em;
 }
 
-
 p {
   font-size: 1.2em;
   font-family: sans-serif, Arial;
   color: #000;
 }
 
-
-.down-page{
+.down-page {
   display: flex;
   flex-direction: column;
   justify-content: center;
