@@ -15,7 +15,6 @@
   margin: 0;
 }
 
-
 main > div > div {
   display: flex;
 }
@@ -36,15 +35,12 @@ main > div .navbar {
   padding: 0 3%;
 }
 
-
-
 .website-logo {
   display: flex;
   width: 5%;
   height: 5%;
 
   /* padding: 5% 0 0 5%; */
-
 }
 
 div > span > a {
@@ -53,18 +49,15 @@ div > span > a {
 }
 
 a:hover {
-
   color: #0000cd;
 }
 
 a:visited {
   color: #ff7f50;
-
 }
 
 .digits {
   display: flex;
-
   justify-content: space-around;
   align-items: flex-end;
   padding-left: 20em;
@@ -86,7 +79,6 @@ a:visited {
   align-items: center;
   padding-top: 1em;
   padding-bottom: 1em;
-
 }
 
 .computer {
@@ -112,5 +104,4 @@ p {
   width: 100%;
   height: 100%;
   background-color: #d3d3d3;
-
 }
